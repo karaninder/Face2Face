@@ -1,0 +1,27 @@
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+running bdist_wheel
+running build
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_egg_info
+running egg_info
+writing f2f.egg-info/PKG-INFO
+writing dependency_links to f2f.egg-info/dependency_links.txt
+writing namespace_packages to f2f.egg-info/namespace_packages.txt
+writing top-level names to f2f.egg-info/top_level.txt
+reading manifest file 'f2f.egg-info/SOURCES.txt'
+writing manifest file 'f2f.egg-info/SOURCES.txt'
+Copying f2f.egg-info to build/bdist.linux-x86_64/wheel/f2f-1.0.dev0-py3.6.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.dist-info/WHEEL
+creating 'dist/f2f-1.0.dev0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'f2f-1.0.dev0.dist-info/METADATA'
+adding 'f2f-1.0.dev0.dist-info/WHEEL'
+adding 'f2f-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'f2f-1.0.dev0.dist-info/top_level.txt'
+adding 'f2f-1.0.dev0.dist-info/zip-safe'
+adding 'f2f-1.0.dev0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel

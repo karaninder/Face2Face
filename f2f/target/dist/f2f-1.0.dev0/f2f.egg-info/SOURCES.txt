@@ -1,0 +1,7 @@
+setup.py
+f2f.egg-info/PKG-INFO
+f2f.egg-info/SOURCES.txt
+f2f.egg-info/dependency_links.txt
+f2f.egg-info/namespace_packages.txt
+f2f.egg-info/top_level.txt
+f2f.egg-info/zip-safe

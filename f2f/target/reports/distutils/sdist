@@ -1,0 +1,35 @@
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+running sdist
+running egg_info
+creating f2f.egg-info
+writing f2f.egg-info/PKG-INFO
+writing dependency_links to f2f.egg-info/dependency_links.txt
+writing namespace_packages to f2f.egg-info/namespace_packages.txt
+writing top-level names to f2f.egg-info/top_level.txt
+writing manifest file 'f2f.egg-info/SOURCES.txt'
+reading manifest file 'f2f.egg-info/SOURCES.txt'
+writing manifest file 'f2f.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating f2f-1.0.dev0
+creating f2f-1.0.dev0/f2f.egg-info
+copying files to f2f-1.0.dev0...
+copying setup.py -> f2f-1.0.dev0
+copying f2f.egg-info/PKG-INFO -> f2f-1.0.dev0/f2f.egg-info
+copying f2f.egg-info/SOURCES.txt -> f2f-1.0.dev0/f2f.egg-info
+copying f2f.egg-info/dependency_links.txt -> f2f-1.0.dev0/f2f.egg-info
+copying f2f.egg-info/namespace_packages.txt -> f2f-1.0.dev0/f2f.egg-info
+copying f2f.egg-info/top_level.txt -> f2f-1.0.dev0/f2f.egg-info
+copying f2f.egg-info/zip-safe -> f2f-1.0.dev0/f2f.egg-info
+Writing f2f-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'f2f-1.0.dev0' (and everything under it)
