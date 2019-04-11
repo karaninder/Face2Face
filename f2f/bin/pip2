@@ -1,5 +1,4 @@
 #!/home/lonewolf/Face2Face/f2f/bin/python2
-
 # -*- coding: utf-8 -*-
 import re
 import sys

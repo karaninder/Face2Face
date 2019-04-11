@@ -8,13 +8,13 @@ from threading import Lock
 class BaseCache(object):
 
     def get(self, key):
-        raise NotImplementedError()
+        raise NotImplemented()
 
     def set(self, key, value):
-        raise NotImplementedError()
+        raise NotImplemented()
 
     def delete(self, key):
-        raise NotImplementedError()
+        raise NotImplemented()
 
     def close(self):
         pass

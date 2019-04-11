@@ -1,0 +1,3 @@
+[console_scripts]
+pytail = tailer:main
+

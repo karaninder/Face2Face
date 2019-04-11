@@ -1,2 +1,4 @@
-"""A package that contains models that represent entities.
-"""
+from pip._internal.models.index import Index, PyPI
+
+
+__all__ = ["Index", "PyPI"]

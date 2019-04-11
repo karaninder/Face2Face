@@ -5,6 +5,7 @@ from __future__ import absolute_import, division, print_function
 
 
 class Infinity(object):
+
     def __repr__(self):
         return "Infinity"
 
@@ -37,6 +38,7 @@ Infinity = Infinity()
 
 
 class NegativeInfinity(object):
+
     def __repr__(self):
         return "-Infinity"
 
