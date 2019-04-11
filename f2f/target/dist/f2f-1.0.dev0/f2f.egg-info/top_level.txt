@@ -1,1 +1,9 @@
-
+fc1
+freeze_model
+generate_train_data
+pix2pix
+process
+reduce_model
+run_webcam
+scp
+split

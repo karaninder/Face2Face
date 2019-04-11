@@ -1,4 +1,13 @@
+fc1.py
+freeze_model.py
+generate_train_data.py
+pix2pix.py
+process.py
+reduce_model.py
+run_webcam.py
+scp.py
 setup.py
+split.py
 f2f.egg-info/PKG-INFO
 f2f.egg-info/SOURCES.txt
 f2f.egg-info/dependency_links.txt

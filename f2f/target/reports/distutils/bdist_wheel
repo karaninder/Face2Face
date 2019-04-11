@@ -1,23 +1,56 @@
 running clean
-'build/lib' does not exist -- can't clean it
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
 'build/bdist.linux-x86_64' does not exist -- can't clean it
-'build/scripts-3.6' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
 running bdist_wheel
 running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+copying generate_train_data.py -> build/lib.linux-x86_64-2.7
+copying reduce_model.py -> build/lib.linux-x86_64-2.7
+copying pix2pix.py -> build/lib.linux-x86_64-2.7
+copying fc1.py -> build/lib.linux-x86_64-2.7
+copying process.py -> build/lib.linux-x86_64-2.7
+copying freeze_model.py -> build/lib.linux-x86_64-2.7
+copying run_webcam.py -> build/lib.linux-x86_64-2.7
+copying scp.py -> build/lib.linux-x86_64-2.7
+copying split.py -> build/lib.linux-x86_64-2.7
 installing to build/bdist.linux-x86_64/wheel
 running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/generate_train_data.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/reduce_model.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/pix2pix.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/fc1.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/process.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/freeze_model.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/run_webcam.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/scp.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/split.py -> build/bdist.linux-x86_64/wheel
 running install_egg_info
 running egg_info
 writing f2f.egg-info/PKG-INFO
-writing dependency_links to f2f.egg-info/dependency_links.txt
 writing namespace_packages to f2f.egg-info/namespace_packages.txt
 writing top-level names to f2f.egg-info/top_level.txt
+writing dependency_links to f2f.egg-info/dependency_links.txt
 reading manifest file 'f2f.egg-info/SOURCES.txt'
 writing manifest file 'f2f.egg-info/SOURCES.txt'
-Copying f2f.egg-info to build/bdist.linux-x86_64/wheel/f2f-1.0.dev0-py3.6.egg-info
+Copying f2f.egg-info to build/bdist.linux-x86_64/wheel/f2f-1.0.dev0-py2.7.egg-info
 running install_scripts
 creating build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.dist-info/WHEEL
-creating 'dist/f2f-1.0.dev0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+creating 'dist/f2f-1.0.dev0-py2-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'fc1.py'
+adding 'freeze_model.py'
+adding 'generate_train_data.py'
+adding 'pix2pix.py'
+adding 'process.py'
+adding 'reduce_model.py'
+adding 'run_webcam.py'
+adding 'scp.py'
+adding 'split.py'
 adding 'f2f-1.0.dev0.dist-info/METADATA'
 adding 'f2f-1.0.dev0.dist-info/WHEEL'
 adding 'f2f-1.0.dev0.dist-info/namespace_packages.txt'

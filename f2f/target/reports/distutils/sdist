@@ -1,14 +1,14 @@
 running clean
-'build/lib' does not exist -- can't clean it
+'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
 'build/bdist.linux-x86_64' does not exist -- can't clean it
-'build/scripts-3.6' does not exist -- can't clean it
+'build/scripts-2.7' does not exist -- can't clean it
 running sdist
 running egg_info
 creating f2f.egg-info
 writing f2f.egg-info/PKG-INFO
-writing dependency_links to f2f.egg-info/dependency_links.txt
 writing namespace_packages to f2f.egg-info/namespace_packages.txt
 writing top-level names to f2f.egg-info/top_level.txt
+writing dependency_links to f2f.egg-info/dependency_links.txt
 writing manifest file 'f2f.egg-info/SOURCES.txt'
 reading manifest file 'f2f.egg-info/SOURCES.txt'
 writing manifest file 'f2f.egg-info/SOURCES.txt'
@@ -22,7 +22,16 @@ warning: check: missing meta-data: either (author and author_email) or (maintain
 creating f2f-1.0.dev0
 creating f2f-1.0.dev0/f2f.egg-info
 copying files to f2f-1.0.dev0...
+copying fc1.py -> f2f-1.0.dev0
+copying freeze_model.py -> f2f-1.0.dev0
+copying generate_train_data.py -> f2f-1.0.dev0
+copying pix2pix.py -> f2f-1.0.dev0
+copying process.py -> f2f-1.0.dev0
+copying reduce_model.py -> f2f-1.0.dev0
+copying run_webcam.py -> f2f-1.0.dev0
+copying scp.py -> f2f-1.0.dev0
 copying setup.py -> f2f-1.0.dev0
+copying split.py -> f2f-1.0.dev0
 copying f2f.egg-info/PKG-INFO -> f2f-1.0.dev0/f2f.egg-info
 copying f2f.egg-info/SOURCES.txt -> f2f-1.0.dev0/f2f.egg-info
 copying f2f.egg-info/dependency_links.txt -> f2f-1.0.dev0/f2f.egg-info

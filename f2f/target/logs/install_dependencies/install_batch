@@ -1,0 +1,10 @@
+Collecting mockito
+  Using cached https://files.pythonhosted.org/packages/0b/65/5a24a309e993c6a6f5b58e4a28cc77c972a40bd89ce98f7f39461a71aa70/mockito-1.1.1.tar.gz
+Requirement not upgraded as not directly required: funcsigs in ./lib/python2.7/site-packages (from mockito) (1.0.2)
+Building wheels for collected packages: mockito
+  Running setup.py bdist_wheel for mockito: started
+  Running setup.py bdist_wheel for mockito: finished with status 'done'
+  Stored in directory: /home/lonewolf/.cache/pip/wheels/3f/34/72/2bb69cfbac281c755461dce247d3d3675646e71d9566e5156d
+Successfully built mockito
+Installing collected packages: mockito
+Successfully installed mockito-1.1.1

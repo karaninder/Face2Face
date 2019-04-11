@@ -30,7 +30,17 @@ if __name__ == '__main__':
         scripts = [],
         packages = [],
         namespace_packages = [],
-        py_modules = [],
+        py_modules = [
+            'generate_train_data',
+            'reduce_model',
+            'pix2pix',
+            'fc1',
+            'process',
+            'freeze_model',
+            'run_webcam',
+            'scp',
+            'split'
+        ],
         classifiers = [
             'Development Status :: 3 - Alpha',
             'Programming Language :: Python'
