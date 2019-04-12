@@ -16,6 +16,28 @@ copying freeze_model.py -> build/lib.linux-x86_64-2.7
 copying run_webcam.py -> build/lib.linux-x86_64-2.7
 copying scp.py -> build/lib.linux-x86_64-2.7
 copying split.py -> build/lib.linux-x86_64-2.7
+running build_scripts
+creating build/scripts-2.7
+copying scripts/generate_train_data.py -> build/scripts-2.7
+copying scripts/reduce_model.py -> build/scripts-2.7
+copying scripts/pix2pix.py -> build/scripts-2.7
+copying scripts/environment.yml -> build/scripts-2.7
+copying scripts/fc1.py -> build/scripts-2.7
+copying scripts/process.py -> build/scripts-2.7
+copying scripts/freeze_model.py -> build/scripts-2.7
+copying scripts/run_webcam.py -> build/scripts-2.7
+copying scripts/scp.py -> build/scripts-2.7
+copying scripts/split.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/generate_train_data.py from 644 to 755
+changing mode of build/scripts-2.7/reduce_model.py from 644 to 755
+changing mode of build/scripts-2.7/pix2pix.py from 644 to 755
+changing mode of build/scripts-2.7/environment.yml from 644 to 755
+changing mode of build/scripts-2.7/fc1.py from 644 to 755
+changing mode of build/scripts-2.7/process.py from 644 to 755
+changing mode of build/scripts-2.7/freeze_model.py from 644 to 755
+changing mode of build/scripts-2.7/run_webcam.py from 644 to 755
+changing mode of build/scripts-2.7/scp.py from 644 to 755
+changing mode of build/scripts-2.7/split.py from 644 to 755
 installing to build/bdist.linux-x86_64/wheel
 running install
 running install_lib
@@ -40,6 +62,28 @@ reading manifest file 'f2f.egg-info/SOURCES.txt'
 writing manifest file 'f2f.egg-info/SOURCES.txt'
 Copying f2f.egg-info to build/bdist.linux-x86_64/wheel/f2f-1.0.dev0-py2.7.egg-info
 running install_scripts
+creating build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data
+creating build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/generate_train_data.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/reduce_model.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/pix2pix.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/environment.yml -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/fc1.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/process.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/freeze_model.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/run_webcam.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/scp.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+copying build/scripts-2.7/split.py -> build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/generate_train_data.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/reduce_model.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/pix2pix.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/environment.yml to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/fc1.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/process.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/freeze_model.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/run_webcam.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/scp.py to 755
+changing mode of build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.data/scripts/split.py to 755
 creating build/bdist.linux-x86_64/wheel/f2f-1.0.dev0.dist-info/WHEEL
 creating 'dist/f2f-1.0.dev0-py2-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
 adding 'fc1.py'
@@ -51,6 +95,16 @@ adding 'reduce_model.py'
 adding 'run_webcam.py'
 adding 'scp.py'
 adding 'split.py'
+adding 'f2f-1.0.dev0.data/scripts/environment.yml'
+adding 'f2f-1.0.dev0.data/scripts/fc1.py'
+adding 'f2f-1.0.dev0.data/scripts/freeze_model.py'
+adding 'f2f-1.0.dev0.data/scripts/generate_train_data.py'
+adding 'f2f-1.0.dev0.data/scripts/pix2pix.py'
+adding 'f2f-1.0.dev0.data/scripts/process.py'
+adding 'f2f-1.0.dev0.data/scripts/reduce_model.py'
+adding 'f2f-1.0.dev0.data/scripts/run_webcam.py'
+adding 'f2f-1.0.dev0.data/scripts/scp.py'
+adding 'f2f-1.0.dev0.data/scripts/split.py'
 adding 'f2f-1.0.dev0.dist-info/METADATA'
 adding 'f2f-1.0.dev0.dist-info/WHEEL'
 adding 'f2f-1.0.dev0.dist-info/namespace_packages.txt'

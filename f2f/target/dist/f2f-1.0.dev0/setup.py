@@ -27,7 +27,18 @@ if __name__ == '__main__':
         author_email = '',
         license = '',
         url = '',
-        scripts = [],
+        scripts = [
+            'scripts/generate_train_data.py',
+            'scripts/reduce_model.py',
+            'scripts/pix2pix.py',
+            'scripts/environment.yml',
+            'scripts/fc1.py',
+            'scripts/process.py',
+            'scripts/freeze_model.py',
+            'scripts/run_webcam.py',
+            'scripts/scp.py',
+            'scripts/split.py'
+        ],
         packages = [],
         namespace_packages = [],
         py_modules = [

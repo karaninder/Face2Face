@@ -14,3 +14,13 @@ f2f.egg-info/dependency_links.txt
 f2f.egg-info/namespace_packages.txt
 f2f.egg-info/top_level.txt
 f2f.egg-info/zip-safe
+scripts/environment.yml
+scripts/fc1.py
+scripts/freeze_model.py
+scripts/generate_train_data.py
+scripts/pix2pix.py
+scripts/process.py
+scripts/reduce_model.py
+scripts/run_webcam.py
+scripts/scp.py
+scripts/split.py

@@ -21,6 +21,7 @@ warning: check: missing meta-data: either (author and author_email) or (maintain
 
 creating f2f-1.0.dev0
 creating f2f-1.0.dev0/f2f.egg-info
+creating f2f-1.0.dev0/scripts
 copying files to f2f-1.0.dev0...
 copying fc1.py -> f2f-1.0.dev0
 copying freeze_model.py -> f2f-1.0.dev0
@@ -38,6 +39,16 @@ copying f2f.egg-info/dependency_links.txt -> f2f-1.0.dev0/f2f.egg-info
 copying f2f.egg-info/namespace_packages.txt -> f2f-1.0.dev0/f2f.egg-info
 copying f2f.egg-info/top_level.txt -> f2f-1.0.dev0/f2f.egg-info
 copying f2f.egg-info/zip-safe -> f2f-1.0.dev0/f2f.egg-info
+copying scripts/environment.yml -> f2f-1.0.dev0/scripts
+copying scripts/fc1.py -> f2f-1.0.dev0/scripts
+copying scripts/freeze_model.py -> f2f-1.0.dev0/scripts
+copying scripts/generate_train_data.py -> f2f-1.0.dev0/scripts
+copying scripts/pix2pix.py -> f2f-1.0.dev0/scripts
+copying scripts/process.py -> f2f-1.0.dev0/scripts
+copying scripts/reduce_model.py -> f2f-1.0.dev0/scripts
+copying scripts/run_webcam.py -> f2f-1.0.dev0/scripts
+copying scripts/scp.py -> f2f-1.0.dev0/scripts
+copying scripts/split.py -> f2f-1.0.dev0/scripts
 Writing f2f-1.0.dev0/setup.cfg
 creating dist
 Creating tar archive
